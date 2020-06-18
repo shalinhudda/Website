@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:300,500");
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  background: #111;
+  background-image: url("../Images/astronomy-night-space-and-black-hd-photo-by-kai-pilger-kaip-starry-sky-background-png-1000_667.jpg");
+  background-repeat: repeat;
+  position: relative;
+  width: 100%;
+  z-index: -100;
+}
+.container{
+    color: white;
+    font-family: "Roboto Mono", "Liberation Mono", Consolas, monospace;
+    z-index: 100;
+    
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container,
+.container > .row,
+.container > .row > div {
+  height: 100%;
+}
+
+#countUp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#countUp .number {
+  font-size: 4rem;
+  font-weight: 500;
+}
+#countUp .number + .text {
+  margin: 0 0 1rem;
+}
+#countUp .text {
+  font-weight: 300;
+  text-align: center;
+}
+

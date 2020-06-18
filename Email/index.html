@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=12, user-scalable=yes">
+        <link rel="stylesheet" href="404.css">
+        <title>404 Not Found</title>
+    </head>
+    <body id="large-header" class = "large-header">
+        <div class="container">
+            <div class="row">
+                <div class="xs-12 md-6 mx-auto">
+                    <div id="countUp">
+                        <div class="number" data-count="404">0</div>
+                        <div class="text">Page not found</div>
+                        <div class="text">Try going back to home <a style="color:red" href="../">here</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdn.3up.dk/in-view@0.6.1"></script>
+        <script src="404.js"></script>
+        <script>
+            if (window.matchMedia) {
+                if(window.matchMedia('(prefers-color-scheme: dark)').matches){
+                    $('head').append('<link rel="shortcut icon" href="../Images/c785e4d2-f97b-4abb-b915-75f2b5f13e42_200x200.png">');
+                } else {
+                    $('head').append('<link rel="shortcut icon" href="../Images/3a73e42c-03b0-4e01-aebb-cb041de54e5b_200x200.png">');      
+                }
+            } else {
+                $(head).append('<link rel="shortcut icon" href="../Images/c785e4d2-f97b-4abb-b915-75f2b5f13e42_200x200.png">');
+            }
+        </script>
+    </body>
+</html>
+            
+            

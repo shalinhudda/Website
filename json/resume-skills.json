@@ -1,0 +1,110 @@
+resume_skills = [
+	{
+		"SkillName": "Function Generator",
+		"SkillRating": "4"
+	},
+	{
+		"SkillName": "Oscilloscope",
+		"SkillRating": "4.5"
+	},
+	{
+		"SkillName": "Signal Generator",
+		"SkillRating": "3.5"
+	},
+	{
+		"SkillName": "High Power MOSFETS",
+		"SkillRating": "3"
+	},
+	{
+		"SkillName": "Power Convertors",
+		"SkillRating": "4"
+	},
+	{
+		"SkillName": "PSIM",
+		"SkillRating": "5"
+	},
+	{
+		"SkillName": "Cadence",
+		"SkillRating": "3.5"
+	},
+	{
+		"SkillName": "Altium Designer",
+		"SkillRating": "3.5"
+	},
+	{
+		"SkillName": "Quartus",
+		"SkillRating": "4.5"
+	},
+	{
+		"SkillName": "ModelSim",
+		"SkillRating": "4.5"
+	},
+	{
+		"SkillName": "SystemVerilog/Verilog",
+		"SkillRating": "5"
+	},
+	{
+		"SkillName": "C",
+		"SkillRating": "4"
+	},
+	{
+		"SkillName": "C++",
+		"SkillRating": "5"
+	},
+	{
+		"SkillName": "C#",
+		"SkillRating": "2"
+	},
+	{
+		"SkillName": "HTML5",
+		"SkillRating": "5"
+	},
+	{
+		"SkillName": "CSS3",
+		"SkillRating": "5"
+	},
+	{
+		"SkillName": "JavaScript",
+		"SkillRating": "3"
+	},
+	{
+		"SkillName": "Node.js",
+		"SkillRating": "1"
+	},
+	{
+		"SkillName": "PHP",
+		"SkillRating": "3.5"
+	},
+	{
+		"SkillName": "jQuery",
+		"SkillRating": "3"
+	},
+	{
+		"SkillName": "Python",
+		"SkillRating": "4.5"
+	},
+	{
+		"SkillName": "PowerShell",
+		"SkillRating": "5"
+	},
+	{
+		"SkillName": "Linux",
+		"SkillRating": "2"
+	},
+	{
+		"SkillName": "Multithreading",
+		"SkillRating": "4"
+	},
+	{
+		"SkillName": "Inter-process Communication",
+		"SkillRating": "4"
+	},
+	{
+		"SkillName": "Git Bash",
+		"SkillRating": "5"
+	},
+	{
+		"SkillName": "SVN",
+		"SkillRating": "5"
+	}
+];

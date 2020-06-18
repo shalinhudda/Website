@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1, maximum-scale=12, user-scalable=yes">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Shalin's Homepage</title>
+    
+  </head>
+
+  <body id="large-header" class="large-header">
+    <canvas id="demo-canvas" class = "canvas-setting clearfix"></canvas>
+    <header class = "page-header">
+        <div class="fixed-width clearfix">
+            <h2><a href="#"><em>S<a>H</a></em><a></a></h2>
+            <nav>
+                <ul>
+                    <li><a href="#" class = "current-tab">Homepage<em>Home</em></a></li>
+                    <li><a href="Projects">My portfolio<em>Projects</em></a></li>
+                    <li><a href="Resume">My career<em>resume</em></a></li>
+                    <li><a href="AboutMe">Get in touch?<em>contact me</em></a></li>
+                </ul>
+            </nav>
+
+            <button id="navbar-mb-buttom" class="navbar-dark navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation" onclick="setFooter()">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+                <ul class="navbar-nav mr-auto">
+                    <li><a href="#" class = "current-tab-mb">Home</a></li>
+                    <li><a href="Projects">Projects</a></li>
+                    <li><a href="Resume">resume</a></li>
+                    <li><a href="AboutMe">contact me</a></li>
+                    <li class="dot-seperation" style="font-size: 10px;">&#11044;&#11044;&#11044;</li> 
+                </ul>
+            </div>
+        </div>
+    </header>
+
+    <section class="center-white-circle fixed-width"></section>
+
+    <section class = "intro-under-pic fixed-width">
+        <div class = "clearfix">
+            <article class="fixed-width">
+                Tech-savvy individual with industrial experience of leading projects driven by big data analysis
+            </article>
+        </div>   
+    </section>
+
+    <section class="fixed-width">
+        <div class="title-block"><h1><a>latest work</a></h1></div>
+    </section>
+
+    <section class= "projects-menu-pictures fixed-width clearfix">
+            <article class="fixed-width">
+                <figure>
+                    <img style="width:350px; height:200px;" src="Images/daas-mb.jpg" alt="DaaS">
+                </figure>
+                <div> 
+                    <h3>Retial Analytics with DL</h3>
+                    <p>
+                        Created an end-to-end solution to count people and identify their age,
+                        gender and ethinicity <a href="javascript:project_name('Retial Anlytics with Deep Learing');"> read more</a>
+                    </p>
+                </div>
+            </article>
+            <article class="fixed-width">
+                <figure>
+                    <img style="width:350px; height:200px;" src="Images/f1-mb.jpg" alt="F1">
+                </figure>
+                <div>
+                    <h3>Formula 1 pit stop simulation</h3>
+                    <p>
+                        Designed a real-time and multithreaded simulation of
+                        Formula 1 pit stop in C++ <a href="javascript:project_name('Real-time Multithreaded Formula 1 Pit Stop Simulation');"> read more</a>
+                    </p>
+                </div>
+            </article>
+            <article class="fixed-width">
+                <figure>
+                    <img style="width:350px; height:200px;" src="Images/website-mb.jpg" alt="Website">
+                </figure>
+                <div>
+                    <h3>Front-end web development</h3>
+                    <p>
+                        Developed this website using latest front-end development tools
+                        and hosted it on a cloud <a href="javascript:project_name('Front-end web development');"> read more</a>
+                    </p>
+                </div>
+            </article>
+
+    </section>
+
+    <footer class="page-footer">
+        <div class="clearfix">
+          <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        </div>
+        <div class="fixed-width clearfix">
+            <small class="copyright">&copy; All rights reserved<em>Shalin &nbsp<a>Hudda</a></em></small>
+        </div>
+    </footer>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/TweenLite.min.js"></script>
+    <script src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/499416/EasePack.min.js"></script>
+    <script src="js/demo_projects.js"></script>
+    <script src="js/project-access.js"></script>
+    <script>$(document).ready(function() {$(".page-footer").css('bottom', "0px");});</script>
+</body>
+</html>
