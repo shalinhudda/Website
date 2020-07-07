@@ -14,7 +14,7 @@ project_list = [
 		"ProjectImage": "../Images/product_28157_product_shots1.jpg"
 	},
 	{
-		"ProjectName": "Retial Anlytics with Deep Learing",
+		"ProjectName": "Retail Anlytics with Deep Learing",
 		"ProjectDate": "September 2019 - April 2020",
 		"ProjectDescription": ["Worked in a team of 5 members alongside an industry partner", 
 							"to design an end-to-end deep learning solution which collected consumer data to perform retail analytics.",
